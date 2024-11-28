@@ -177,7 +177,7 @@ header .right-side-menu .sub-menu a li:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10rem 0;
+  margin-bottom: 10rem;
 }
 
 .main-hero-section .hero-left-side {
@@ -194,6 +194,7 @@ header .right-side-menu .sub-menu a li:hover {
   font-size: 6.5rem;
   line-height: 9rem;
   margin-bottom: 5rem;
+  text-transform: capitalize;
 }
 
 .main-hero-section p {
@@ -206,7 +207,6 @@ header .right-side-menu .sub-menu a li:hover {
   width: 12.5rem;
   margin-right: 2.5rem;
 }
-
 
 /* -------------------------------our hero right side css  style----------------------------------------------- */
 .main-hero-section .hero-right-side {
@@ -221,8 +221,88 @@ header .right-side-menu .sub-menu a li:hover {
   align-items: center;
 }
 
- .main-hero-section .hero-right-side img {
+.main-hero-section .hero-right-side img {
   height: 70rem;
   width: 70rem;
   /* margin-right: 23rem; */
+}
+
+/* -------------------------------------------------- our 2nd section left side css style ----------------------------------------- */
+
+.common-section {
+  width: 100%;
+  height: 70rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 9rem;
+  padding: 0 20rem;
+}
+
+.common-section .left-side {
+  width: inherit;
+  height: inherit;
+}
+
+.common-section .left-side figure {
+  width: 20rem;
+  height: 65rem;
+  background: #f3f9ff;
+  border-radius: 20px;
+}
+
+.common-section .left-side img {
+  width: 45rem;
+  height: 60rem;
+  border-radius: 2rem;
+  margin-left: 10rem;
+  margin-top: 2.5rem;
+}
+
+/* ----------------------------------------------------------our 2nd section rigth side css stylr----------------------------------------- */
+
+.common-section .right-side {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 15rem;
+}
+.common-section .right-side h2 {
+  width: 40rem;
+  font-style: normal;
+  font-size: 5.5rem;
+  font-weight: bold;
+  line-height: 6.3rem;
+  margin-bottom: 3rem;
+  text-transform: capitalize;
+}
+
+.common-section .right-side p {
+width: 40.3rem;
+height: 9rem;
+text-transform: lowercase;
+margin-bottom: 3rem;
+}
+
+.common-section .right-side .common-button {
+  padding: 1rem 3rem;
+  background-color: var(--primary-button-background);
+ margin-right: 2rem; 
+ color: #fff;
+}
+
+.common-section .right-side .button:last-child {
+  color: var(--main-color);
+background-color: transparent;
+}
+
+.common-section .right-side .common-button:hover {
+ background: #fa5b26; 
+}
+
+.common-section .right-side .common-button-normal:hover {
+  background:var(--primary-button-background);
+  color: #f0f7ff;
 }
